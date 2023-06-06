@@ -1,0 +1,36 @@
+.night {
+  background-color: white;
+  border-radius: 25px;
+  padding: 8px 10px;
+  border: 0;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+
+.day {
+  background-color: white;
+  border-radius: 25px;
+  padding: 8px 10px;
+  border: 0;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+h1 {
+  display: flex;
+  position: relative;
+}
+.night:hover {
+  border: 0;
+  background-color: lightgray;
+  font-size: large;
+}
+.day:hover {
+  border: 0;
+  background-color: lightgray;
+  font-size: large;
+}
+.home {
+  display: flex;
+}
