@@ -7,11 +7,13 @@ export default function Toggle() {
 
   function changeBlack() {
     document.body.style.backgroundColor = "#121212";
+
     setDark(true);
   }
 
   function changeWhite() {
     document.body.style.backgroundColor = "white";
+
     setDark(false);
   }
 

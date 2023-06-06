@@ -1,15 +1,17 @@
 .night {
-  background-color: white;
   border-radius: 25px;
   padding: 8px 10px;
   border: 0;
   position: fixed;
   top: 0px;
   right: 0px;
+  font-size: large;
+  background-color: transparent;
 }
 
 .day {
-  background-color: white;
+  font-size: large;
+  background-color: transparent;
   border-radius: 25px;
   padding: 8px 10px;
   border: 0;
@@ -23,13 +25,13 @@ h1 {
 }
 .night:hover {
   border: 0;
-  background-color: lightgray;
-  font-size: large;
+
+  font-size: larger;
 }
 .day:hover {
   border: 0;
-  background-color: lightgray;
-  font-size: large;
+
+  font-size: larger;
 }
 .home {
   display: flex;
