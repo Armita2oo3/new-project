@@ -1,7 +1,12 @@
 import React from "react";
-
+import "./Night.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Night() {
-  return <span style={{ color: "white" }}></span>;
+  return (
+    <div className="light">
+      <h1>Homepage</h1>
+      <span>how u doin?</span>
+    </div>
+  );
 }

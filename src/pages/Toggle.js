@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
-export default function Toggle() {
+import Night from "./Night";
+import Day from "./Day";
+export default function Toggle(props) {
   const [dark, setDark] = useState(false);
 
   function changeBlack() {
@@ -23,6 +24,7 @@ export default function Toggle() {
         <button className="day" onClick={changeWhite}>
           🌕
         </button>
+        <Day />
       </span>
     );
   } else {
@@ -31,6 +33,7 @@ export default function Toggle() {
         <button className="night" onClick={changeBlack}>
           🌑
         </button>
+        <Night />
       </span>
     );
   }
