@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Homepage from "./pages/Homepage";
 import Profile from "./pages/Profile";
+import "./pages/Homepage.css";
 
 export default function App() {
   return (

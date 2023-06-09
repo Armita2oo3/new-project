@@ -20,7 +20,7 @@ export default function Toggle(props) {
 
   if (dark) {
     return (
-      <span className="home">
+      <span className="toggle">
         <button className="day" onClick={changeWhite}>
           🌕
         </button>
@@ -29,7 +29,7 @@ export default function Toggle(props) {
     );
   } else {
     return (
-      <span className="home">
+      <span className="toggle">
         <button className="night" onClick={changeBlack}>
           🌑
         </button>
