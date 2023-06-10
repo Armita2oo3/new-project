@@ -8,7 +8,7 @@ import "./Homepage.css";
 export default function Homepage() {
   return (
     <div>
-      <div className="home" id="homepage">
+      <div className="home">
         <Toggle />
         <div>
           <img

@@ -8,7 +8,7 @@ import "./Homepage.css";
 export default function Homepage() {
   return (
     <div>
-      <div className="project" id="latest-project">
+      <div className="project">
         <Toggle />
         <h1 className="text-center">Latest Projects</h1>
         <div className="container">

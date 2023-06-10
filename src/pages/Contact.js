@@ -10,7 +10,7 @@ export default function Contact() {
   return (
     <div>
       <Toggle />
-      <div className="contact" id="contact">
+      <div className="contact">
         <div>
           <h1 className="text-center mb-5">Contact Me</h1>
         </div>
