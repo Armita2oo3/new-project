@@ -13,20 +13,19 @@ main {
 .top {
   display: flex;
   align-items: center;
-  padding: 25px 12px;
+  padding: 25px 22px;
 }
 .logo {
   font-size: 28px;
 }
 .bars {
   display: flex;
-  margin-left: 80px;
   font-size: 25px;
 }
 .link {
   display: flex;
   color: white;
-  padding: 35px 15px;
+  padding: 25px 25px;
   gap: 15px;
   transition: all 0.5s;
   text-decoration: none;
@@ -45,6 +44,5 @@ main {
 }
 .menu {
   color: white;
-
   text-decoration: none;
 }
