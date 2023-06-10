@@ -6,9 +6,11 @@ export default function Day() {
     <div>
       <style>
         {`
-        *{
+        body{
           color:white;
         }
+    
+     
       `}
       </style>
       <div className="darkness "></div>

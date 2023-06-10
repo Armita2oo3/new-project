@@ -26,7 +26,7 @@ main {
 .link {
   display: flex;
   color: white;
-  padding: 15px 15px;
+  padding: 35px 15px;
   gap: 15px;
   transition: all 0.5s;
   text-decoration: none;

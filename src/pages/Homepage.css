@@ -1,5 +1,6 @@
 .home {
   margin: 0;
+
   padding: 60px;
   padding-top: 230px;
   padding-bottom: 80px;
@@ -19,7 +20,7 @@
 .sidebar {
   background-color: black;
   color: white;
-  height: 200vh;
+  height: 250vh;
   transition: all 0.4s;
   box-shadow: 1px 1px 14px grey;
 }
@@ -42,21 +43,17 @@ h1 {
   color: grey;
 }
 .container .img-fluid {
-  width: 60%;
+  width: 70%;
   display: block;
   margin: 0 auto;
   border-radius: 20px;
 }
 
-.about {
-  background-color: #eaf6f6;
-  padding: 60px;
-  padding-top: 117px;
-  padding-bottom: 130px;
-  margin-bottom: 100px;
-  margin-top: 100px;
+.project {
+  padding-top: 60px;
+  margin: 30px;
 }
-.about h1 {
+.project h1 {
   margin-bottom: 100px;
 }
 .contact img {
@@ -67,10 +64,14 @@ h1 {
   padding: 10px;
 }
 .contact {
-  padding: 60px;
-  padding-top: 117px;
-  padding-bottom: 130px;
-  margin-bottom: 100px;
+  padding-top: 60px;
+
+  margin: 30px;
+}
+.contact .container {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 20px;
 }
 .email-link {
   background-color: red;
@@ -137,26 +138,26 @@ h1 {
     color: gray;
     margin: 10px;
   }
-  .contact .img-fluid {
+  .project .img-fluid {
     width: 160px;
     display: block;
     margin: auto;
   }
   .sidebar {
-    height: 205vh;
+    height: 180vh;
   }
 }
 @media (min-width: 666px) {
-  .contact .img-fluid {
+  .project .img-fluid {
     width: 60%;
   }
   .sidebar {
-    height: 230vh;
+    height: 250vh;
   }
 }
 @media (max-width: 1000px) {
   .sidebar {
-    height: 180vh;
+    height: 250vh;
   }
 }
 @media (max-width: 666px) {
@@ -164,7 +165,7 @@ h1 {
     display: none;
   }
   .sidebar {
-    height: 170vh;
+    height: 220vh;
   }
   .home {
     text-align: center;
@@ -176,7 +177,7 @@ h1 {
   .paragraph {
     justify-content: center;
   }
-  .about .img-fluid {
+  .project .img-fluid {
     display: block;
   }
   .contact .img-fluid {

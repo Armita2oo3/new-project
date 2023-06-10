@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
-import { AiFillContacts, AiFillHome } from "react-icons/ai";
-import { CgProfile } from "react-icons/cg";
-import { BsFillInfoCircleFill } from "react-icons/bs";
+import { AiFillHome, AiFillContacts } from "react-icons/ai";
+import { CgWebsite } from "react-icons/cg";
 import { NavLink } from "react-router-dom";
 
 export default function Sidebar({ children }) {
@@ -17,19 +16,15 @@ export default function Sidebar({ children }) {
       icon: <AiFillHome />,
     },
     {
-      path: "/about",
-      name: "About",
-      icon: <BsFillInfoCircleFill />,
+      path: "/project",
+      name: "Projects",
+      icon: <CgWebsite />,
     },
+
     {
       path: "/contact",
-      name: "Contact",
+      name: "Contact me",
       icon: <AiFillContacts />,
-    },
-    {
-      path: "/profile",
-      name: "Profile",
-      icon: <CgProfile />,
     },
   ];
   return (

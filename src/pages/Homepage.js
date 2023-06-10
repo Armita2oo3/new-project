@@ -26,14 +26,16 @@ export default function Homepage() {
       <hr />
       <div className="container">
         <div className="row">
-          <div className=" paragraph">
-            <h2 className="text-center mb-4">Working Tools</h2>
+          <h2 className="text-center mb-4">Working Tools</h2>
+          <div className="col-lg-6  ">
             <img
               src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/078/210/original/Screenshot_2023-04-21_182909.jpg?1682093674"
               alt="working tools"
-              className="img-fluid apps mb-5 mt-5"
+              className="img-fluid apps "
             />
-            <p className="mb-5 text-center">
+          </div>
+          <div className="col-lg-6">
+            <p className="  mt-5 text-center ">
               dolor sit amet, consectetuer adipiscing elit. Aenean commodo
               ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
               magnis dis parturient montes, nascetur ridiculus mus. Donec quam

@@ -37,3 +37,6 @@ h1 {
   display: flex;
   margin: 0;
 }
+.project .container {
+  margin: 0;
+}
