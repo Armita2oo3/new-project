@@ -24,6 +24,9 @@
   padding-top: 20px;
   color: black;
 }
+.pic-link:hover {
+  text-decoration: underline;
+}
 
 .sidebar {
   background-color: black;
