@@ -10,6 +10,9 @@ export default function Day() {
           color:white;
         }
     
+.pic-link {
+  color: white;
+}
      
       `}
       </style>

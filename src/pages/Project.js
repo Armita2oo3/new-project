@@ -19,7 +19,14 @@ export default function Homepage() {
                 alt=""
                 className="img-fluid weather"
               />
-              <h2 className="text-center mt-2 mb-5">Weather App</h2>
+              <a
+                href="https://mellow-jalebi-fa1668.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="pic-link mt-2 mb-5"
+              >
+                Weather App
+              </a>
             </div>
             <div className="col-lg-6">
               <img
@@ -27,7 +34,14 @@ export default function Homepage() {
                 alt=""
                 className="img-fluid pet"
               />
-              <h2 className="text-center mt-2 mb-5">Pet App</h2>
+              <a
+                href="https://www.shecodes.io/workshops/shecodes-basics-159929af-30e6-4958-bd3b-91990c61966b/projects/1413381"
+                target="_blank"
+                rel="noreferrer"
+                className="pic-link mt-2 mb-5"
+              >
+                Pet App
+              </a>
             </div>
             <div className="col-lg-6">
               <img
@@ -35,7 +49,29 @@ export default function Homepage() {
                 alt=""
                 className="img-fluid weather"
               />
-              <h2 className="text-center mt-2 mb-5">#2 Weather App</h2>
+              <a
+                href="https://sweet-tulumba-ee73d6.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="pic-link mt-2 mb-5"
+              >
+                #2 Weather App
+              </a>
+            </div>
+            <div className="col-lg-6">
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/085/173/original/Calculator_2023-06-11_135839.jpg?1686476015"
+                alt=""
+                className="img-fluid weather"
+              />
+              <a
+                href="https://calculator-react-new.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="pic-link mt-2 mb-5"
+              >
+                Calculator App
+              </a>
             </div>
           </div>
         </div>

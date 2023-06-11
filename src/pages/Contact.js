@@ -20,7 +20,7 @@ export default function Contact() {
               <img
                 src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/078/789/original/pngwing.com_%282%29.png?1682412209"
                 alt=""
-                className="img-fluid"
+                className="img-fluid icon-img"
               />
               <h4 className="text-center mt-2 mb-5">
                 <a
@@ -38,7 +38,7 @@ export default function Contact() {
               <img
                 src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/078/788/original/pngwing.com_%281%29.png?1682412184"
                 alt=""
-                className="img-fluid email"
+                className="img-fluid email icon-img"
               />
               <h4 className="text-center mt-2 mb-5">
                 <a
@@ -56,7 +56,7 @@ export default function Contact() {
               <img
                 src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/078/787/original/pngwing.com.png?1682412172"
                 alt=""
-                className="img-fluid"
+                className="img-fluid icon-img"
               />
               <h4 className="text-center mt-2 mb-5">
                 <a

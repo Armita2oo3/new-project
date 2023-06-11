@@ -15,6 +15,15 @@
 .container {
   margin: 40px;
 }
+.pic-link {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: 700;
+  padding-top: 20px;
+  color: black;
+}
 
 .sidebar {
   background-color: black;
