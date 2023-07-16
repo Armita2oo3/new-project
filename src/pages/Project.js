@@ -17,7 +17,10 @@ export default function Homepage() {
               <img
                 src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/085/095/original/weather_2023-04-23_100439.jpg?1686416446"
                 alt=""
-                style={{ border: "1px solid black", width: "300px" }}
+                style={{
+                  border: "1px solid black",
+                  width: "310px",
+                }}
                 className="img-fluid pictures weather"
               />
               <a
@@ -35,7 +38,7 @@ export default function Homepage() {
                 alt=""
                 style={{
                   border: "1px solid black",
-                  width: "300px",
+                  width: "310px",
                 }}
                 className="img-fluid pictures pet"
               />
@@ -52,7 +55,7 @@ export default function Homepage() {
               <img
                 src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/085/097/original/Screenshot_2023-06-10_214447.jpg?1686417351"
                 alt=""
-                style={{ border: "1px solid black", width: "300px" }}
+                style={{ border: "1px solid black", width: "310px" }}
                 className="img-fluid pictures weather"
               />
               <a
@@ -68,7 +71,7 @@ export default function Homepage() {
               <img
                 src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/085/173/original/Calculator_2023-06-11_135839.jpg?1686476015"
                 alt=""
-                style={{ border: "1px solid black", width: "300px" }}
+                style={{ border: "1px solid black", width: "310px" }}
                 className="img-fluid pictures weather"
               />
               <a
@@ -84,7 +87,7 @@ export default function Homepage() {
               <img
                 src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/090/178/original/todo2.jpg?1689507386"
                 alt=""
-                style={{ border: "1px solid black", width: "300px" }}
+                style={{ border: "1px solid black", width: "310px" }}
                 className="img-fluid pictures weather"
               />
               <a

@@ -32,7 +32,7 @@ export default function Sidebar({ children }) {
     <div className="box">
       <div
         style={{
-          width: isOpen ? "240px" : "70px",
+          width: isOpen ? "220px" : "70px",
 
           position: "fixed",
         }}
