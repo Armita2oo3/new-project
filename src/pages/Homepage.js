@@ -7,7 +7,7 @@ import "./Night.css";
 import "./Homepage.css";
 export default function Homepage() {
   return (
-    <div>
+    <div style={{ marginLeft: "200px", marginRight: "100px" }}>
       <div className="home">
         <Toggle />
         <div>

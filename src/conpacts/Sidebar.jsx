@@ -6,6 +6,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Sidebar({ children }) {
   const [isOpen, setisOpen] = useState(false);
+
   function toggle() {
     setisOpen(!isOpen);
   }
@@ -29,7 +30,14 @@ export default function Sidebar({ children }) {
   ];
   return (
     <div className="box">
-      <div style={{ width: isOpen ? "300px" : "70px" }} className="sidebar">
+      <div
+        style={{
+          width: isOpen ? "240px" : "70px",
+
+          position: "fixed",
+        }}
+        className="sidebar"
+      >
         <div className="top">
           <h1 style={{ display: isOpen ? "block" : "none" }} className="logo">
             <a className="menu" href="/">

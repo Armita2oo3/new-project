@@ -8,7 +8,7 @@ import "./Homepage.css";
 
 export default function Contact() {
   return (
-    <div>
+    <div style={{ marginLeft: "200px", marginRight: "100px" }}>
       <Toggle />
       <div className="contact">
         <div>
@@ -16,11 +16,15 @@ export default function Contact() {
         </div>
         <div className="container">
           <div className="row text-center">
-            <div className="col-4 mt-5 columns">
+            <div className="col mt-5 columns">
               <img
                 src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/078/789/original/pngwing.com_%282%29.png?1682412209"
                 alt=""
-                className="img-fluid icon-img"
+                className="img-fluid icon-img "
+                style={{
+                  width: "90px",
+                  border: "2px solid  #962fbf",
+                }}
               />
               <h4 className="text-center mt-2 mb-5">
                 <a
@@ -34,10 +38,11 @@ export default function Contact() {
                 </a>
               </h4>
             </div>
-            <div className="col-4 mt-5  columns">
+            <div className="col mt-5  columns">
               <img
                 src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/078/788/original/pngwing.com_%281%29.png?1682412184"
                 alt=""
+                style={{ border: "2px solid red", width: "100px" }}
                 className="img-fluid email icon-img"
               />
               <h4 className="text-center mt-2 mb-5">
@@ -52,10 +57,11 @@ export default function Contact() {
                 </a>
               </h4>
             </div>
-            <div className="col-4 mt-5  columns">
+            <div className="col mt-5  columns">
               <img
                 src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/078/787/original/pngwing.com.png?1682412172"
                 alt=""
+                style={{ border: "2px solid #0088cc", width: "90px" }}
                 className="img-fluid icon-img"
               />
               <h4 className="text-center mt-2 mb-5">

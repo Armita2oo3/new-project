@@ -12,6 +12,7 @@
   height: auto;
   float: right;
 }
+
 .container {
   margin: 40px;
 }
@@ -31,7 +32,7 @@
 .sidebar {
   background-color: black;
   color: white;
-  height: 250vh;
+  height: 280vh;
   transition: all 0.4s;
   box-shadow: 1px 1px 14px grey;
 }
@@ -54,7 +55,7 @@ h1 {
   color: grey;
 }
 .container .img-fluid {
-  width: 70%;
+  width: 50%;
   display: block;
   margin: 0 auto;
   border-radius: 20px;
@@ -97,10 +98,12 @@ h1 {
     #fa7e1e,
     #feda75
   );
+
   color: white;
   padding: 3px;
   border-radius: 4px;
 }
+
 .telegram-link {
   background-color: #0088cc;
   color: white;

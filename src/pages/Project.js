@@ -7,7 +7,7 @@ import "./Night.css";
 import "./Homepage.css";
 export default function Homepage() {
   return (
-    <div>
+    <div style={{ marginLeft: "200px", marginRight: "100px" }}>
       <div className="project">
         <Toggle />
         <h1 className="text-center">Latest Projects</h1>
@@ -17,7 +17,8 @@ export default function Homepage() {
               <img
                 src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/085/095/original/weather_2023-04-23_100439.jpg?1686416446"
                 alt=""
-                className="img-fluid weather"
+                style={{ border: "1px solid black", width: "300px" }}
+                className="img-fluid pictures weather"
               />
               <a
                 href="https://mellow-jalebi-fa1668.netlify.app/"
@@ -32,7 +33,11 @@ export default function Homepage() {
               <img
                 src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/085/096/original/Animal_2023-04-23_100500.jpg?1686416793"
                 alt=""
-                className="img-fluid pet"
+                style={{
+                  border: "1px solid black",
+                  width: "300px",
+                }}
+                className="img-fluid pictures pet"
               />
               <a
                 href="https://www.shecodes.io/workshops/shecodes-basics-159929af-30e6-4958-bd3b-91990c61966b/projects/1413381"
@@ -47,7 +52,8 @@ export default function Homepage() {
               <img
                 src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/085/097/original/Screenshot_2023-06-10_214447.jpg?1686417351"
                 alt=""
-                className="img-fluid weather"
+                style={{ border: "1px solid black", width: "300px" }}
+                className="img-fluid pictures weather"
               />
               <a
                 href="https://sweet-tulumba-ee73d6.netlify.app/"
@@ -62,7 +68,8 @@ export default function Homepage() {
               <img
                 src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/085/173/original/Calculator_2023-06-11_135839.jpg?1686476015"
                 alt=""
-                className="img-fluid weather"
+                style={{ border: "1px solid black", width: "300px" }}
+                className="img-fluid pictures weather"
               />
               <a
                 href="https://calculator-react-new.vercel.app/"
@@ -71,6 +78,22 @@ export default function Homepage() {
                 className="pic-link mt-2 mb-5"
               >
                 Calculator App
+              </a>
+            </div>
+            <div className="col-lg-6">
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/090/178/original/todo2.jpg?1689507386"
+                alt=""
+                style={{ border: "1px solid black", width: "300px" }}
+                className="img-fluid pictures weather"
+              />
+              <a
+                href="https://gentle-griffin-1a6def.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="pic-link mt-2 mb-5"
+              >
+                Todo App
               </a>
             </div>
           </div>
